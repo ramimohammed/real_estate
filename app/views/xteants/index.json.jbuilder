@@ -1,0 +1,1 @@
+json.array! @xteants, partial: 'xteants/xteant', as: :xteant

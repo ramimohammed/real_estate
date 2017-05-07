@@ -1,0 +1,1 @@
+json.partial! "xteants/xteant", xteant: @xteant
