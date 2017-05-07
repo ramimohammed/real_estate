@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @xteant.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @xteant.last_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @xteant.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @xteant.email %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @xteant.address %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @xteant.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @xteant.longitude %>
+</p>
+
+<%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@xteant.latitude}%2C#{@xteant.longitude}" %>
+
+<%= link_to 'Edit', edit_xteant_path(@xteant) %> |
+<%= link_to 'Back', xteants_path %>

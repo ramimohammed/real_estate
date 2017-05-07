@@ -1,0 +1,2 @@
+module XteantsHelper
+end
